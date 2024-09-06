@@ -5,10 +5,68 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
 
+<body>
+  <div class="profilePage">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./images/funding_logo.jpg" alt="" height="20px">
+          <p>SKS Funding</p>
+        </div>
+        <div class="help">
+          <button class="help-btn">NEED HELP</button>
+          <i class="fa-regular fa-bell"></i>
+          <img src="./images/profile.jpg" class="profile_logo">
+        </div>
+      </nav>
+      <div class="dashboard">
+        <div class="profile-section">
+          <img src="./images/profile.jpg" alt="User Image" class="profile-img">
+          <div class="greeting">
+            <h2>Hi, Emma good morning 👋</h2>
+            <p>Email: <a href="mailto:abc.emma@gmail.com">abc.emma@gmail.com</a></p>
+            <p>Phone: +91 889311xxxx</p>
+            <p>Address: 250 Box 2133, Newark, NJ 07105 (USA)</p>
+            <p>Plan: $500</p>
+            <p>Joined: Mar 22nd, 2019</p>
+          </div>
+        </div>
+        <div class="completion-section">
+          <div class="completion-card">
+            <span class="border-progress"></span>
+            <div class="progress-circle">
+              <span class="progress-text">75%</span>
+            </div>
+            <div class="completion-info">
+              <h3>Profile Completion</h3>
+              <p>Please complete profile</p>
+              <button class="complete-btn">COMPLETE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-bar">
+        <div class="nav-links">
+          <a href="#"><i class="fa-solid fa-house-chimney"></i>&nbsp;<b>Dashboard</b></a>
+          <a href="#">New Claims</a>
+          <a href="#">Completed Claims</a>
+          <a href="#">Past Claims</a>
+          <a href="#">Members</a>
+          <a href="#">My Claims</a>
+        </div>
+        <button class="claim-btn">CLAIM</button>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
